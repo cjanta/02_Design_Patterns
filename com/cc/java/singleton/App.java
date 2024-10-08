@@ -4,7 +4,6 @@ public class App {
     
     public static void main(String[] args) {
 
-        
         Singleton obj1 = Singleton.getInstance();
         Helper.output(obj1);
         obj1.actOnEvent();
@@ -34,11 +33,6 @@ public class App {
         // Events werden kumuliert ... 5 + 5
         Helper.output(obj3.getCounter());
    
-
-
-
-
-
 
     }
 
