@@ -6,16 +6,19 @@ package com.cc.java;
 public class Singleton {
 
 // Objektbildung
-private static Singleton instance;
+    private static Singleton instance;
 
-private Singleton() {
+    private Singleton() {
 
-}
+    }
 
-public static Singleton getInstance() {
-    return instance;
-}
-
-
+    public static Singleton getInstance() {
+    if (instance == null) {
+        instance = new Singleton();
+        return instance;
+    } else {
+        return instance;
+    }   
+    }
 
 }
