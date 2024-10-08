@@ -1,29 +1,20 @@
 package com.cc.java;
 
 
+
+
 public class Singleton {
 
-private int myNum;
+// Objektbildung
+private static Singleton instance;
 
-public Singleton(int myNum) {
-    this.myNum = myNum;
+private Singleton() {
+
 }
 
-public int getMyNum() {
-    return myNum;
+public static Singleton getInstance() {
+    return instance;
 }
-
-public void setMyNum(int myNum) {
-    this.myNum = myNum;
-}
-
-
-
-
-
-
-
-
 
 
 
