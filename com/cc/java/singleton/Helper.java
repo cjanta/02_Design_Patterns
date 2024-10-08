@@ -2,22 +2,22 @@ package com.cc.java.singleton;
 
 public class Helper {
 
-    public static void output(String outputData) {
+    public static void out(String outputData) {
         System.out.println(outputData);  
     }
 
     // Überladene Methode
-    public static void output(int outputData){
+    public static void out(int outputData){
         System.out.println(outputData);
     }
 
     // Überladene Methode
-    public static void output(boolean outputData){
+    public static void out(boolean outputData){
         System.out.println(outputData);
     }
     
     // Überladene Methode
-    public static void output(Object outputData){
+    public static void out(Object outputData){
         System.out.println(outputData);
     }
 
