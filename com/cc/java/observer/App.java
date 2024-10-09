@@ -13,10 +13,6 @@ public class App {
 
         notifier.setState("Freigabe");
 
-
-
-
-
     }
 
 

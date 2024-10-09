@@ -18,5 +18,11 @@ public class Subscriber extends Observer{
     public void update() {
         out(subject.getClass().getName() + " notified " + name);
     }
+
+
+    @Override
+    public void pushUpdate(String msg) {
+        out(subject.getClass().getName() + " Message: " + msg + " für " + name);
+    }
     
 }

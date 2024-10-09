@@ -31,6 +31,9 @@ public class Subject implements Observable {
     public void notifyObservers() {
         out(this.getClass().getName() + " Update Observers...");
         observers.stream().forEach(o -> o.update());
+        out(this.getClass().getName() + "    ");
+        out(this.getClass().getName() + " PushUpdate Observers...");
+        observers.stream().forEach(o -> o.pushUpdate(state));
     }
 
 
