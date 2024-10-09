@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Observer Design Pattern (HTML5 Canvas)</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="900" height="600"></canvas>
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+
+        // Draw the Subject class
+        ctx.beginPath();
+        ctx.rect(100, 50, 400, 200);
+        ctx.stroke();
+        ctx.font = "18px Arial";
+        ctx.fillText("Subject", 150, 80);
+        ctx.fillText("state: String", 150, 110);
+        ctx.fillText("+ attach(observer: Observer): void", 150, 140);
+        ctx.fillText("+ detach(observer: Observer): void", 150, 170);
+        ctx.fillText("+ notify(): void", 150, 200);
+
+        // Draw the Observer class
+        ctx.beginPath();
+        ctx.rect(600, 100, 280, 150);
+        ctx.stroke();
+        ctx.fillText("Observer", 620, 130);
+        ctx.fillText("+ update(subject: Subject): void", 620, 160);
+
+        // Draw the relationship line
+        ctx.beginPath();
+        ctx.moveTo(500, 150);
+        ctx.lineTo(600, 150);
+        ctx.stroke();
+        ctx.fillText("1:n", 550, 145);
+        
+    </script>
+</body>
+</html>
