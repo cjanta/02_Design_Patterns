@@ -4,6 +4,13 @@
             "type": "java",
             "name": "App",
             "request": "launch",
+            "mainClass": "com.cc.java.observer.App",
+            "projectName": "02_Design_Patterns_b6b8f545"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
             "mainClass": "com.cc.java.singleton.App",
             "projectName": "02_Design_Patterns_b6b8f545"
         },
