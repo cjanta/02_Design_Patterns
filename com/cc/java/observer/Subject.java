@@ -1,5 +1,6 @@
 package com.cc.java.observer;
-import static com.cc.java.singleton.Helper.out;
+import static com.cc.java.tools.Helper.out;
+
 import java.util.ArrayList;
 
 public class Subject implements Observable {

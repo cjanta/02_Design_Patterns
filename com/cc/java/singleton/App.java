@@ -1,5 +1,5 @@
 package com.cc.java.singleton;
-import static com.cc.java.singleton.Helper.out;
+import static com.cc.java.tools.Helper.out;
 
 public class App {
     

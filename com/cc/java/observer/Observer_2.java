@@ -1,5 +1,5 @@
 package com.cc.java.observer;
-import static com.cc.java.singleton.Helper.out;
+import static com.cc.java.tools.Helper.out;
 
 public class Observer_2 extends Observer {
 
