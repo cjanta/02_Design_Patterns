@@ -1,13 +1,13 @@
 package com.cc.java.observer;
 import static com.cc.java.tools.Helper.out;
 
-public class Observer_1 extends Observer{
+public class Subscriber extends Observer{
 
     private String name;
     private Subject subject;
 
 
-    public Observer_1(String name, Subject subject) {
+    public Subscriber(String name, Subject subject) {
         this.name = name;
         this.subject = subject;
         subject.attach(this);

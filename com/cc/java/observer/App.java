@@ -7,8 +7,9 @@ public class App {
         out("Teste Observer Design Pattern....");
         Subject notifier = new Subject();
 
-        Observer_1 obsi_1 = new Observer_1("Observer vom Typ 1", notifier);
-        Observer_2 obsi_2 = new Observer_2("Observer vom Typ 2", notifier);
+        Subscriber lisa = new Subscriber("Lisa", notifier);
+        Subscriber hugo = new Subscriber("Hugo", notifier);
+        
 
         notifier.setState("Freigabe");
 
