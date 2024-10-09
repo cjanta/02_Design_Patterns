@@ -4,6 +4,20 @@
             "type": "java",
             "name": "App",
             "request": "launch",
+            "mainClass": "com.cc.java.decorator.App",
+            "projectName": "02_Design_Patterns_12ccb1be"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.cc.java.observer.App",
+            "projectName": "02_Design_Patterns_12ccb1be"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
             "mainClass": "com.cc.java.observer.App",
             "projectName": "02_Design_Patterns_b6b8f545"
         },
