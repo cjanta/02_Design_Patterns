@@ -4,7 +4,6 @@ public class Soy extends CondimentDecorator {
 
     public Soy(Beverage beverage) {
         super(beverage);
-        //TODO Auto-generated constructor stub
     }
 
     @Override
